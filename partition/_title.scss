@@ -1,0 +1,37 @@
+%for_title {
+	font: {
+		family: $f_yeseva;
+		size: 36px;
+		weight: normal;
+	}
+
+	line-height: 1.4em;
+	text-align: center;
+
+}
+
+%for_title_pseudo {
+	display: block;
+}
+
+.title {
+	&--white {
+		@extend %for_title;
+		color: $color_white;
+
+		&::after {
+			@extend %for_title_pseudo;
+			content: url(image/vector.svg);
+		}
+	}
+
+	&--orange {
+		@extend %for_title;
+		color: $color_orange;
+
+		&::after {
+			@extend %for_title_pseudo;
+			content: url(image/vector_1.svg);
+		}
+	}
+}

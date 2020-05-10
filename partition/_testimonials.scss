@@ -1,0 +1,36 @@
+.testimonials {
+	background: {
+		image: url(image/bg_2.jpg);
+		repeat: no-repeat;
+		size: cover;
+	}
+
+	min-height: $height;
+	color: $color_white;
+	text-align: center;
+
+	.imonials {
+
+		background-color: rgba(0, 0, 0, 0.8);
+		padding: 30px;
+		width: 850px;
+		height: 550px;
+		font-family: $f_yeseva;
+		margin-top: 100px;
+	}
+
+	h2 {
+		
+		margin-top: 60px;
+	}
+
+	p {
+		font-family: $f_gentium;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 42px;
+		text-align: center;
+		padding: 60px 80px 50px 80px;
+	}
+}

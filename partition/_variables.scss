@@ -9,4 +9,10 @@ $f_gentium: 'Gentium Book Basic', serif;
 
 	
 $height: 750px;
+
+@mixin phone() {
+	@media screen and (max-width:576px){
+		@content;
+	}
+}
 	

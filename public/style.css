@@ -18,13 +18,116 @@ ul {
 p {
   margin: 0; }
 
+.title--white, .title--orange {
+  font-family: "Yeseva One", cursive;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 1.4em;
+  text-align: center; }
+
+.title--white::after, .title--orange::after {
+  display: block; }
+
+.title--white {
+  color: #ffffff; }
+  .title--white::after {
+    content: url(image/vector.svg); }
+.title--orange {
+  color: #cc9900; }
+  .title--orange::after {
+    content: url(image/vector_1.svg); }
+
 .header {
   padding: 100px 0;
-  background-image: url(image/header.png);
+  background-image: url(image/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 750px;
   color: #ffffff;
   text-align: center; }
+  .header h1 {
+    font-size: 90px;
+    text-transform: lowercase;
+    text-shadow: 2px 2px 0px #000000; }
+    .header h1::after {
+      content: url(image/vector.svg); }
+    @media screen and (max-width: 576px) {
+      .header h1 {
+        font-size: 3em; } }
+  .header__item {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 218px;
+    border: 1px solid #ffffff;
+    font-size: 18px;
+    margin: 15px; }
+    .header__item:hover {
+      color: #ffffff;
+      background-color: rgba(255, 255, 255, 0.7);
+      text-decoration: none; }
+
+.about {
+  padding: 100px 0;
+  min-height: 750px;
+  background: url(image/about.jpg), linear-gradient(270deg, #F4F2F2 18.35%, #FFFFFF 84.09%);
+  background-blend-mode: overlay;
+  box-shadow: inset 0px 4px 40px rgba(0, 0, 0, 0.1);
+  background-size: contain;
+  text-align: center; }
+  .about__dish {
+    width: 100%; }
+  .about__cook {
+    margin: 15px;
+    transform: translateX(40px); }
+
+.ingredients {
+  background-image: url(image/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  min-height: 750px;
+  color: #ffffff; }
+  .ingredients__opisanie {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    width: 629px;
+    height: 550px; }
+  .ingredients__photo {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 15px;
+    box-shadow: 0 0 0 5px #cc9900; }
+  .ingredients img {
+    background-size: cover; }
+
+.testimonials {
+  background-image: url(image/bg_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 750px;
+  color: #ffffff;
+  text-align: center; }
+  .testimonials .imonials {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    width: 850px;
+    height: 550px;
+    font-family: "Yeseva One", cursive;
+    margin-top: 100px; }
+  .testimonials h2 {
+    margin-top: 60px; }
+  .testimonials p {
+    font-family: "Gentium Book Basic", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    padding: 60px 80px 50px 80px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+.ingredients {
+
+	    background: {
+		image: url(image/bg.jpg);
+		repeat: no-repeat;
+		size: cover;
+	}
+
+	text-align: center;
+
+
+	&__opisanie {
+		
+		background-color: rgba(0, 0, 0, 0.8);
+		padding: 30px;
+		width: 629px;
+		height: 550px;
+	}
+	
+	&__photo{
+
+		width: 120px;
+		height: 120px;
+		overflow: hidden;
+		border-radius: 100%;
+	margin: 15px;
+		box-shadow: 0 0 0 5px $color_orange;
+	}
+
+
+	img {
+		background-size: cover;
+//		width: 220px;
+//		width: 120px;
+//		height: 120px;
+//		overflow: hidden;
+//		border-radius: 100%;
+//		margin: 15px;
+//		box-shadow: 0 0 0 5px $color_orange;
+
+	}
+
+
+
+	min-height: $height;
+	color: $color_white;
+
+}
