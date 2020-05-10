@@ -10,7 +10,6 @@
 
 
 	&__opisanie {
-		
 		background-color: rgba(0, 0, 0, 0.8);
 		padding: 30px;
 		width: 629px;
@@ -18,26 +17,17 @@
 	}
 	
 	&__photo{
-
 		width: 120px;
 		height: 120px;
 		overflow: hidden;
 		border-radius: 100%;
-	margin: 15px;
+	margin: 15px auto;
 		box-shadow: 0 0 0 5px $color_orange;
 	}
 
 
 	img {
-		background-size: cover;
-//		width: 220px;
-//		width: 120px;
-//		height: 120px;
-//		overflow: hidden;
-//		border-radius: 100%;
-//		margin: 15px;
-//		box-shadow: 0 0 0 5px $color_orange;
-
+		width: 100%
 	}
 
 
