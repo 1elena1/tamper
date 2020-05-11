@@ -1,0 +1,42 @@
+.reservation {
+	padding: 100px 0;
+	min-height: $height;
+	background: url(image/about.jpg),
+		linear-gradient(270deg, #F4F2F2 18.35%, #FFFFFF 84.09%);
+	background-blend-mode: overlay;
+	box-shadow: inset 0px 4px 40px rgba(0, 0, 0, 0.1);
+	background-size: contain;
+	text-align: center;
+
+
+
+	&__item {}
+
+
+	p {
+		margin-bottom: 30px;
+
+	}
+
+	&__form {
+		color: $color_orange;
+	
+
+
+
+	}
+
+	img {
+		width: 100%;
+
+	}
+
+
+
+
+
+
+
+
+
+}

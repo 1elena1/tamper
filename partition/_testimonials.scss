@@ -3,9 +3,9 @@
 		image: url(image/bg_2.jpg);
 		repeat: no-repeat;
 		size: cover;
+		position: top center;
 	}
 
-	min-height: $height;
 	color: $color_white;
 	text-align: center;
 
@@ -31,6 +31,6 @@
 		font-size: 24px;
 		line-height: 42px;
 		text-align: center;
-		padding: 60px 80px 50px 80px;
+		margin: 50px 0;
 	}
 }

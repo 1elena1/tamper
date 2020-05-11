@@ -1,0 +1,34 @@
+.menus{
+	
+	padding: 100px 0;
+	min-height: $height;
+	background: url(image/fon_2.png),
+	            linear-gradient(270deg, #FFFFFF 18.35%, #F4F2F2 84.09%);
+	background-blend-mode: overlay;
+	box-shadow: inset 0px 4px 40px rgba(0, 0, 0, 0.1);
+	background-size: contain;
+	
+	
+	&__items{}
+	
+	&__item{
+		padding: 15px 0;
+	}
+	
+	&__title{
+		padding: 7px 0;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid $color_orange;
+		font: {
+			family: $f_yeseva;
+			size:21px;
+		}
+		line-height: 1.5em;
+		color: $color_orange;
+	}
+	
+	&__description{
+			padding: 15px 0;
+	}
+}
